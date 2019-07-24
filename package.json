@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "deploy": "now",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
+    "clsx": "latest",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-tap-event-plugin": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "now": "^15.8.5"
+  }
+}

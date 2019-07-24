@@ -1,0 +1,40 @@
+{
+  "source": {
+    "include": [
+      ".",
+      "./README.md"
+    ],
+    "includePattern": ".js(doc|x)?$"
+  },
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/jsdoc-babel"
+  ],
+  "babel": {
+    "presets": [
+      ["env" , {
+        "modules": false
+      }],
+      "stage-2",
+      "react"
+    ],
+    "plugins": [
+      "transform-react-jsx-source",
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      "transform-react-constant-elements",
+      "transform-react-inline-elements",
+      "syntax-dynamic-import"
+    ]
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "template": "node_modules/@pixi/jsdoc-template",
+    "destination": "./docs/",
+    "private": true,
+    "recurse": true
+  }
+}

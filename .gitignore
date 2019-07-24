@@ -1,0 +1,27 @@
+# IDE
+.idea/
+.vscode/
+
+# Webpack
+webpack-assets.json
+webpack-stats.json
+
+# ESLint
+.eslintcache
+
+# Npm related
+npm-debug.log*
+node_modules/
+
+# Operating System
+*.DS_Store
+
+#
+# FROM THIS PROJECT
+#
+.next
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

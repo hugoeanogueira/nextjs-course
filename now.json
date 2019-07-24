@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "nextjs-course",
+  "alias": "nextjs-course",
+  "public": true,
+  "build": {
+    "env": {
+      "BLOGGER_URL": "@nextjs-course-blogger-url",
+      "API_KEY": "@nextjs-course-api-key"
+    }
+  }
+}
